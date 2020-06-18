@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1591077535217,
-  "repoUrl": "https://github.com/Nerzal/gocloak",
+  "lastUpdate": 1592524718492,
+  "repoUrl": "https://github.com/viniciussousazup/gocloak",
   "entries": {
     "Benchmark": [
       {
@@ -1054,6 +1054,54 @@ window.BENCHMARK_DATA = {
             "name": "BenchmarkLoginParallel",
             "value": 50964992,
             "unit": "ns/op\t   61012 B/op\t     211 allocs/op",
+            "extra": "22 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "vinicius.sousa@zup.com.br",
+            "name": "viniciusousazup",
+            "username": "viniciussousazup"
+          },
+          "committer": {
+            "email": "vinicius.sousa@zup.com.br",
+            "name": "viniciusousazup",
+            "username": "viniciussousazup"
+          },
+          "distinct": true,
+          "id": "1e65cf5d1a603603b7e80a1a4f9aa7f678e47b1b",
+          "message": "try to import this repo on my project",
+          "timestamp": "2020-06-18T20:56:04-03:00",
+          "tree_id": "db806419b71f2958831863469f36aea08d829b6f",
+          "url": "https://github.com/viniciussousazup/gocloak/commit/1e65cf5d1a603603b7e80a1a4f9aa7f678e47b1b"
+        },
+        "date": 1592524718084,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkLogin",
+            "value": 83268037,
+            "unit": "ns/op\t   51864 B/op\t     210 allocs/op",
+            "extra": "13 times"
+          },
+          {
+            "name": "BenchmarkLogin",
+            "value": 83461569,
+            "unit": "ns/op\t   52074 B/op\t     212 allocs/op",
+            "extra": "13 times\n2 procs"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 85499160,
+            "unit": "ns/op\t   57774 B/op\t     213 allocs/op",
+            "extra": "13 times"
+          },
+          {
+            "name": "BenchmarkLoginParallel",
+            "value": 57601430,
+            "unit": "ns/op\t   52645 B/op\t     211 allocs/op",
             "extra": "22 times\n2 procs"
           }
         ]
